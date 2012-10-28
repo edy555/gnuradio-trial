@@ -3,19 +3,31 @@ gnuradio-trial
 
 # What is this?
 
-GNURadio is the toolkit that treats realtime signal processing used
-for composing Software Defined Radio (SDR). I just had tried to use
-gnuradio in these days and could have some experiences. I thought this
-experience is valuable for newbies of gnuradio, so I started to share
-some knowledge about gnuradio here.
+GNURadio is the toolkit that treats realtime signal processing written
+in C++ and python. GNURadio is used for composing Software Defined
+Radio (SDR). I tried to use GNURadio in these days, I had some
+experiences about GNURadio. I thought that my experience is valuable
+for newbies of GNURRadio, so I started to share know-hows about
+using GNURadio for amatures.
 
-This folder contains a number of trivial samples of gnuradio.
+This folder contains a number of GNURadio trivial samples.
+
+[jp]
+
+GNURadioは、C++とpythonで実装された信号処理ツールキットです。ソフトウェ
+アレディオ(SDR)を構築するために使われています。先日GNURadioを使い始めま
+した。初心者の経験したことはGNURadioをこれから始める方にお役に立つので
+はないかと思ったので、アマチュアがGNURadioを使うためのノウハウを公開す
+ることにしました。
+
+このフォルダには、GNURadioの簡単なサンプルがあります。
 
 # Requirements
 
 ## Software
 
  * GNURadio http://gnuradio.org/
+ * RTL-SDR http://sdr.osmocom.org/trac/wiki/rtl-sdr
  * Linux or OSX
 
 ## Hardware
@@ -23,6 +35,12 @@ This folder contains a number of trivial samples of gnuradio.
  * PC or Mac
  * RTL2832U DVB-T USB-Dongle
  * Antenna
+
+# How to run
+
+        $ git clone git://github.com/edy555/gnuradio-trial
+		$ cd gnuradio-trial
+  		$ gnuradio-companion fmradio.grc
 
 # Contains
 
@@ -39,12 +57,19 @@ This folder contains a number of trivial samples of gnuradio.
  * airband-fft.grc
    * VHF AM radio
  * acars-audioin.grc
-   * ACARS RX - VHF Aircraft Location info
+   * ACARS RX - VHF Aircraft Location info (reqiuires gr-acars)
  * README.markdown
    * This file you read
  * udp_audio_sink.grc
 
 # References
 
- * Author's web site http://ttrftech.tumblr.com/ (written in Japanese)
+ * GNURadio http://gnuradio.org/
+ * RTL-SDR http://sdr.osmocom.org/trac/wiki/rtl-sdr
+ * gr-acars https://www.cgran.org/wiki/ACARS
 
+# Author
+
+ * web site http://ttrftech.tumblr.com/ (written in Japanese)
+ * twitter @edy555
+ * github https://github.com/edy555/gnuradio-trial
