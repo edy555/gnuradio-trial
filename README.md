@@ -1,4 +1,0 @@
-gnuradio-trial
-==============
-
-gnuradio sample
