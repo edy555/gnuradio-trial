@@ -46,5 +46,5 @@ This folder contains a number of trivial samples of gnuradio.
 
 # References
 
- * Author's Site http://ttrfteech.tumblr.com/ (written in Japanese)
+ * Author's web site http://ttrftech.tumblr.com/ (written in Japanese)
 
