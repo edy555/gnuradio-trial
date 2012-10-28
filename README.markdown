@@ -3,6 +3,8 @@ gnuradio-trial
 
 # What is this?
 
+This folder contains a number of GNURadio trivial samples.
+
 GNURadio is the toolkit that treats realtime signal processing written
 in C++ and python. GNURadio is used for composing Software Defined
 Radio (SDR). I tried to use GNURadio in these days, I had some
@@ -10,17 +12,15 @@ experiences about GNURadio. I thought that my experience is valuable
 for newbies of GNURRadio, so I started to share know-hows about
 using GNURadio for amatures.
 
-This folder contains a number of GNURadio trivial samples.
-
 [jp]
 
-GNURadioは、C++とpythonで実装された信号処理ツールキットです。ソフトウェ
-アレディオ(SDR)を構築するために使われています。先日GNURadioを使い始めま
-した。初心者の経験したことはGNURadioをこれから始める方にお役に立つので
-はないかと思ったので、アマチュアがGNURadioを使うためのノウハウを公開す
-ることにしました。
-
 このフォルダには、GNURadioの簡単なサンプルがあります。
+
+GNURadioとは、C++とpythonで実装された信号処理ツールキットです。ソフトウェ
+アレディオ(SDR)を構築するために使われています。先日GNURadioを使い始めま
+したのですが、初心者の経験したことはGNURadioをこれから始める方にお役に
+立つのではないかと思ったので、アマチュアがGNURadioを使うための知見を公
+開することにしました。
 
 # Requirements
 
@@ -71,5 +71,5 @@ GNURadioは、C++とpythonで実装された信号処理ツールキットです
 # Author
 
  * web site http://ttrftech.tumblr.com/ (written in Japanese)
- * twitter @edy555
  * github https://github.com/edy555/gnuradio-trial
+ * twitter @edy555
