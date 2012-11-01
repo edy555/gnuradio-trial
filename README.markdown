@@ -60,6 +60,10 @@ GNURadioとは、C++とpythonで実装された信号処理ツールキットで
    * ACARS RX - VHF Aircraft Location info (reqiuires gr-acars)
  * ssb-bpf-audio.grc
    * SSB Demodurator for Softrock/Soft66
+ * ssb-7mhz-rtl-directsamp.grc
+   * SSB RX with RTL2832U direct sampling mode
+ * amradio-rtl-direct-samp.grc
+   * Broadcasting AM Radio with RTL2832U direct sampling mode
  * README.markdown
    * This file you read
  * udp_audio_sink.grc
