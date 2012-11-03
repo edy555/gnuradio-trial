@@ -62,8 +62,10 @@ GNURadioとは、C++とpythonで実装された信号処理ツールキットで
    * SSB Demodurator for Softrock/Soft66
  * ssb-lpf-audio.grc
    * SSB Demodurator with LPF and freq-offset
- * ssb-7mhz-rtl-directsamp.grc
+ * ssb-rtl-direct-samp.grc
    * SSB RX with RTL2832U direct sampling mode
+ * ssb-rtl-direct-tune.grc
+   * SSB RX with RTL2832U direct sampling mode and tune
  * amradio-rtl-direct-samp.grc
    * Broadcasting AM Radio with RTL2832U direct sampling mode
  * README.markdown
